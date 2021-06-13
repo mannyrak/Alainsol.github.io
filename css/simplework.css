@@ -1,7 +1,7 @@
 .grid-parentbox{
 display: grid;
-grid-template-column: 400px 400px 400px;
-grid-template-row: auto;
+grid-template-columns: 400px 400px 400px;
+grid-template-rows: auto;
 width: 1200px;
 margin: 20px auto;
 }
