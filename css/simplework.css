@@ -20,3 +20,6 @@ margin: 20px auto;
     grid-row: 1;
     background-color: green;
 }
+.grid-child-1 img, .grid-child-2 img, .grid-child-3 img {
+    max-width: 100%;
+}
