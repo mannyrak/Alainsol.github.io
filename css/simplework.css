@@ -21,6 +21,9 @@ gap: 20px;
     grid-row: 1;
     background-color: green;
 }
-.grid-child-1 img, .grid-child-2 img, .grid-child-3 img {
+.grid-child img {
     max-width: 100%;
+}
+.grid-child p.link {
+    text-align: center;
 }
