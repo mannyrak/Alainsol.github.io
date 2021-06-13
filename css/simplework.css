@@ -1,0 +1,21 @@
+.grid-parentbox{
+display: grid;
+grid-template-column: auto auto auto;
+grid-template-row: auto;
+
+}
+.grid-child-1{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: red;
+}
+.grid-child-2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: blue;
+}
+.grid-child-3{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: green;
+}
