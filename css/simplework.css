@@ -1,8 +1,8 @@
 .grid-parentbox{
 display: grid;
-grid-template-column: auto auto auto;
+grid-template-column: 400px 400px 400px;
 grid-template-row: auto;
-width: 1000px;
+width: 1200px;
 margin: 20px auto;
 }
 .grid-child-1{
