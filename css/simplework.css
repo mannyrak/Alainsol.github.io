@@ -2,7 +2,8 @@
 display: grid;
 grid-template-column: auto auto auto;
 grid-template-row: auto;
-
+width: 1000px;
+margin: 20px auto;
 }
 .grid-child-1{
     grid-column: 1;
