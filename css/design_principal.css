@@ -72,3 +72,9 @@ footer {
     max-width: 900px;
     
 }
+.footer{
+    display: grid;
+    grid-column: 100%;
+    grid-row: 1;
+    
+}
