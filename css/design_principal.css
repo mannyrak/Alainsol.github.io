@@ -69,12 +69,12 @@ footer {
     right: 0;
     height: auto;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 100%;
     
 }
 .footer{
     display: grid;
     grid-column: 100%;
     grid-row: 1;
-    
+
 }
