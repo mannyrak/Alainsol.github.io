@@ -72,10 +72,16 @@ footer {
     max-width: 100%;
     
 }
-.footer{
-    display: grid;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    max-width: 100%;
-
+footer {
+    display: block;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
