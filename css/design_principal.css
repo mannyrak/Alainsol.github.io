@@ -63,3 +63,12 @@ header,footer {
 footer {
     margin-top: 1em;
 }
+ footer {
+    background-color: rgb(211, 17, 17);
+    left: 0;
+    right: 0;
+    height: auto;
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
