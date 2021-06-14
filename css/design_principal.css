@@ -48,3 +48,5 @@ header,footer {
     text-align:center;
     font-family: 'Calibri Light', sans-serif;
 }
+footer {
+    margin-top: 1em;
