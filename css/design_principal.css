@@ -42,7 +42,7 @@ h1 {
 header {
     background-color: rgb(211, 17, 17);
     padding:.3em;
-    line-height: 1;
+    line-height: 1px;
     border-radius:.67em;
     color:white;
     text-align:center;
@@ -70,3 +70,4 @@ footer {
     height: auto;
     margin: 0 auto;
     max-width: 100%;
+}
