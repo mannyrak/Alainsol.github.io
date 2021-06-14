@@ -47,6 +47,19 @@ header,footer {
     color:white;
     text-align:center;
     font-family: 'Calibri Light', sans-serif;
+
+
+}
+
+header,footer {
+    background-color: rgb(211, 17, 17);
+    padding:.3em;
+    line-height: 1;
+    border-radius:.67em;
+    color:white;
+    text-align:center;
+    font-family: 'Calibri Light', sans-serif;
 }
 footer {
     margin-top: 1em;
+}
