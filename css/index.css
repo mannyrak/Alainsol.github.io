@@ -61,7 +61,7 @@ header, footer {
       color: black;
       
     }
-    footer{
+    header,footer{
 
      background-color: brown;
     text-align: center;
