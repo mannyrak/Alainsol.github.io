@@ -53,7 +53,7 @@ header {
 
 }
 
-header,footer {
+header {
     background-color: rgb(211, 17, 17);
     padding:.3em;
     line-height: 1;
@@ -63,13 +63,13 @@ header,footer {
     font-family: 'Calibri Light', sans-serif;
 }
 footer {
-    margin-top: 1em;
+    margin-top: 5em;
 }
  footer {
-    background-color: rgb(211, 17, 17);
-    left: 0;
-    right: 0;
-    height: auto;
-    margin: 0 auto;
-    max-width: 100%;
+     display: grid;
+     grid-auto-columns: 100;
+     grid-row: inherit;
+    background-color: rgb(128, 37, 37);
+    
+    
 }
