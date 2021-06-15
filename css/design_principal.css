@@ -1,6 +1,6 @@
 .grid-parentbox{
 display: grid;
-grid-template-columns: 400px 400px 400px;
+grid-template-columns: none;
 grid-template-rows: auto;
 width: 1200px;
 margin: 10px auto;
@@ -47,6 +47,8 @@ header {
     color:white;
     text-align:center;
     font-family: 'Calibri Light', sans-serif;
+    margin-left: 10%;
+    margin-right: 2%;
 
 
 }
