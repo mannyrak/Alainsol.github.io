@@ -64,9 +64,12 @@ header {
     width: 1200px;
     margin: 0 auto;
 }
+header.main {
+    width: auto;
+}
 .footer {
    
-    margin-top: 1em;
+    margin-top: none;
     grid-column: 1 / span 3;
 }
 
