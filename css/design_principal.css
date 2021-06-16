@@ -64,10 +64,12 @@ header {
 }
 footer {
     margin-top: 5em;
+    grid-column: 1 / span 3;
 }
+
  footer {
      display: grid;
-     grid-auto-columns: 100;
+     grid-auto-columns: 100px;
      grid-row: inherit;
     background-color: rgb(128, 37, 37);
     
