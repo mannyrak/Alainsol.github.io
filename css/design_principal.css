@@ -61,6 +61,8 @@ header {
     color:white;
     text-align:center;
     font-family: 'Calibri Light', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
 }
 .footer {
    
