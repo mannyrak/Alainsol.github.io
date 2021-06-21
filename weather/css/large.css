@@ -3,5 +3,14 @@
     /* .... */
     h1 {
         font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
     }
+}
+    body {
+        font-size: 18px;
+        line-height: 1.5px;
+        max-width:  600px;
+        margin: 0 auto
+    font-family: 'open sans',sans-serif;
+    heigh: 100%;
 }
