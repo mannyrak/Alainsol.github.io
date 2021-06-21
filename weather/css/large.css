@@ -22,3 +22,12 @@ header{
     font-family:'Times New Roman', Times, serif;
     text-align: center;
 }
+    main{
+        margin: 25px;
+        
+
+}
+    nav{
+        background-color: slateblue;
+        text-align: center;
+    }
