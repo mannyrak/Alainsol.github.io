@@ -3,7 +3,7 @@
     /* .... */
     h1 {
         font-size: 20px;
-        font-family:'Times New Roman', Times, serif;
+         font-family:'Times New Roman', Times, serif;
     }
 }
     body {
@@ -13,4 +13,12 @@
         margin: 0 auto
     font-family: 'open sans',sans-serif;
     heigh: 100%;
+}
+header{
+    padding: 0.5px;
+    background-color: lightseagreen;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
 }
