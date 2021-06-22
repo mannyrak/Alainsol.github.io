@@ -12,9 +12,14 @@ h1 {
     background-color:blue;
 }
 
-header .images{
+header .images {
+    grid-column: 1;
+    grid-row: 2;      
+}
+header .text-title{
+    grid-column: 1;
+    grid-row: 1;    
     
-
 }
 
 }
