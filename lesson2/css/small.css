@@ -1,7 +1,9 @@
 @media only screen and (max-width: 32.5em) {
 
     header{
-        display: flex;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 200px;
     }
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
 }
 
 header .images{
-    flex
+    
 
 }
 
