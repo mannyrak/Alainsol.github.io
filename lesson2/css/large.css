@@ -8,18 +8,15 @@
         }
 
         header {
-            display: grid;
-            grid-template-columns: auto 40%;
-            grid-template-rows: 200px;
+            display: flex;
+            
 
         }
         header .images {
-           grid-column: 2;
-           grid-row: 1;
+           
         }
         header .text-title{
-            grid-column: 1;
-            grid-row: 1;
+            
         }
 
 
