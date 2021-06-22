@@ -6,29 +6,3 @@
          font-family:'Times New Roman', Times, serif;
     }
 }
-    body {
-        font-size: 18px;
-        line-height: 1.5px;
-        max-width:  600px;
-        margin: 0 auto
-    font-family: 'open sans',sans-serif;
-    heigh: 100%;
-}
-header, footer{
-    display: flex;
-    padding: 0.5px;
-    background-color: lightseagreen;
-    max-width: 800px;
-    margin: 0 auto;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-}
-    main{
-        margin: 25px;
-        
-
-}
-    nav{
-        background-color: slateblue;
-        text-align: center;
-    }
