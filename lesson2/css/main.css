@@ -6,7 +6,7 @@ body {
 }
 
 /* phone or baseline views **************************/
-header,
+
 footer {
 	background-color: #bed;
 	display: flex;
