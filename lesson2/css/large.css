@@ -10,6 +10,7 @@
         header {
             display: flex;
             align-items: center;
+            background-color: chartreuse;
 
         }
         header .images {
@@ -33,7 +34,7 @@
     }
     nav ul li {
         float: left;
-        padding: 10px;
+        padding: 2px;
     }
 
 
