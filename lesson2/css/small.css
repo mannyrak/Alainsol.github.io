@@ -21,6 +21,11 @@ header .text-title{
     grid-row: 1;    
     
 }
+footer {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 200px 300px; 
+}
 
 }
 
