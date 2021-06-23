@@ -14,10 +14,15 @@
 
         }
         footer{
+            display: flexbox;
+            flex-direction: row;
+            
             back-ground-color: chartreuse;
             padding: 0,4em;
             margin-top: 3em;
             text-align: center;
+            
+            }
         }
         header .images {
            
