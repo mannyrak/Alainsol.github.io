@@ -10,13 +10,171 @@ header {
 contents {
     display: block;
     margin: 10px auto;
+    border: 1px dashed rgb(0, 0, 0);
+    padding: 15px;
+    background-color: #399476;
+    color: #7ae74f;
+    font-style: italic;
+}
+@import url('https://fonts.googleapis.com/css?family="Alata"|Open+Sans&display=swap" rel="stylesheet"');
+a {
+    color: #05386B;
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: "Alata";
+    background-color: #EDF5E1;
+  }
+  
+  header {
+    color: #040127;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: "Alata";
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: "Alata";
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: "Alata";
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: "Alata";
+  }
+  
+  h3 {
+    font-family: "Alata";
+    font-size: 1.2em;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .section_head {
+    text-align: center;
+    color: #040127;
+  }
+  
+  .contents{
+    display: block;
+    margin: 10px auto;
     border: 1px dashed black;
     padding: 15px;
     background-color: #396E94;
     color: #E7C24F;
     font-style: italic;
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #396E94;
+  }
+  
+  nav {
+	margin: 0 auto;
+	max-width: auto;
+	background-color: #040127;
+    font-size: 0.93em;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+    
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #E7C24F;
+	background-color: #fff;
+	font-weight: 700;
 }
 
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #CEEAF7;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+}
+  
+  p {
+    font-family: "open sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color:	#5CDB95;
+  }
+  
+  footer {
+    background-color:#040127;
+    color: #CEEAF7;
+    font-family: "Alata"-Gothic;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
 
 
 
