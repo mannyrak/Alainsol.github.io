@@ -4,7 +4,24 @@
 
 header {
     background-color: lightyellow;
-    paddind
+    
+}
+
+contents {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: #396E94;
+    color: #E7C24F;
+    font-style: italic;
+}
+
+
+
+
+
+
 }
 
 
