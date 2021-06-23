@@ -1,14 +1,16 @@
 @media only screen and (max-width: 500px) {
 
     header{
-        display: flex;
-        grid-template-columns: 100%;
-        grid-template-rows: 35px 200px;
-        background-color:chartreuse;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
+        
+            display: flex;
+          
+            background-color:chartreuse;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            
+        }
         
     }
 header img{
