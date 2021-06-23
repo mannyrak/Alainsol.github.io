@@ -23,7 +23,7 @@
             text-align: center;
             
             }
-        }
+        
         header .images {
            
         }
@@ -53,6 +53,8 @@ body{
     background-color: lightslategrey;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+footer {
+    flex: 0 1 100%;
+    height: 10rem;
+
 }
-
-
