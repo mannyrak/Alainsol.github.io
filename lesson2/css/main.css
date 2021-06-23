@@ -22,6 +22,7 @@ main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
+	background-color: darkgreen;
 }
 h1 {
 	font-size: 1.1rem;
