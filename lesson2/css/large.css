@@ -13,6 +13,12 @@
             background-color: chartreuse;
 
         }
+        footer{
+            back-ground-color: chartreuse;
+            padding: 0,4em;
+            margin-top: 3em;
+            text-align: center;
+        }
         header .images {
            
         }
@@ -37,7 +43,11 @@
         padding: 2px;
     }
 
-
+body{
+    font-size : 30px;
+    background-color: lightslategrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 }
 
 
