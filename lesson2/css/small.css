@@ -1,3 +1,31 @@
 @media only screen and (max-width: 300px) {
+    .section_head{
+        text-align: center;
+        color: navy;
 
-}
+    }
+    .contents{
+        display: block;
+        margin: 12px auto;
+        padding: 16px;
+        border: 1px dashed darkslategray;
+        background-color: dimgrey;
+        color:lavender;
+        font-style: italic;
+
+    }
+
+    body{
+        margin : 0 auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: linen;
+        
+
+ }
+
+
+
+
+    }
+
+
