@@ -50,13 +50,14 @@ body{
     grid-template-columns: 200px auto;
     grid-template-rows: 60px 60px 60px;
     height: auto;
-  
+    width: 100%;
 }
 
 .footer .picture{
    
     grid-column: 1 ;
     grid-row: 1 / span 3;
+    padding: 15px;
 }
 
 
@@ -82,4 +83,12 @@ grid-row: 1 ;
     grid-row: 3;
 }
 
+.footer .social ul {
+    list-style: none;
+}
+
+
+.footer .social ul img {
+    width: 48px;
+}
 }
