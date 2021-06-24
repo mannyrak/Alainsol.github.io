@@ -10,14 +10,15 @@
         header {
             display: flex;
             align-items: center;
-            background-color: chartreuse;
+            background-color: lightgrey;
+            border-radius: 10px;
 
         }
         footer{
             display: flexbox;
             flex-direction: row;
             
-            back-ground-color: chartreuse;
+            back-ground-color: lightgrey;
             padding: 0,4em;
             margin-top: 3em;
             text-align: center;
@@ -33,9 +34,9 @@
 
 
         .img {
-            width: 80px;
+            width: 90px;
            
-           padding:10px;
+           padding:30px;
            margin-bottom: 10px;
            margin-top: 10px;
         }
@@ -46,6 +47,7 @@
     nav ul li {
         float: left;
         padding: 2px;
+        background-color: lightgrey;
     }
 
 body{

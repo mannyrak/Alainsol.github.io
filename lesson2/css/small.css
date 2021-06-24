@@ -15,8 +15,8 @@
     }
 header img{
 
-    width: 80px;
-    height: auto;
+    height: none;
+    width: auto;
 }
 h1 {
     text-align: center;
