@@ -14,16 +14,6 @@
             border-radius: 10px;
 
         }
-        footer{
-            display: flexbox;
-            flex-direction: row;
-            
-            background-color: lightgrey;
-            padding: 0,4em;
-            margin-top: 3em;
-            text-align: center;
-            
-            }
         
         header .images {
            
