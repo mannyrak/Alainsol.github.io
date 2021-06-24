@@ -58,7 +58,7 @@ body{
 .footer {
     display: grid;
     grid-template-columns: 200px auto;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
     height: auto;
   
 }
