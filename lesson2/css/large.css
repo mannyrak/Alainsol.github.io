@@ -18,7 +18,7 @@
             display: flexbox;
             flex-direction: row;
             
-            back-ground-color: lightgrey;
+            background-color: lightgrey;
             padding: 0,4em;
             margin-top: 3em;
             text-align: center;
@@ -51,7 +51,7 @@
     }
 
 body{
-    font-size : 30px;
+    font-size : 12px;
     background-color: lightslategrey;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
