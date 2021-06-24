@@ -8,7 +8,7 @@ body {
 /* phone or baseline views **************************/
 
 footer {
-	background-color: #bed;
+	background-color: lightgrey;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
