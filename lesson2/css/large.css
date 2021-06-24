@@ -62,7 +62,7 @@ footer {
 }
 footer {
     display: grid;
-    grid-template-colomuns: 200px auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: 100px 100px 100px;
   
 }
