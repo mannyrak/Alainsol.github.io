@@ -55,47 +55,39 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-footer {
+.footer {
     display: grid;
     grid-template-columns: 200px auto;
     grid-template-rows: 100px 100px 100px;
     height: auto;
   
 }
-.class{
-    grid-column: 2;
-    grid-row: 1;
-}
-.social {
-    grid-column:2;
-    grid-row: 2;
 
-}
-.picture{
+.footer .picture{
    
     grid-column: 1 ;
     grid-row: 1 / span 3;
 }
 
 
-.picture img  {
+.footer .picture img  {
     width: 100%;
 }
 
 
-.contact {
+.footer .contact {
 grid-column: 2;
 grid-row: 1 ;
 
 
 }
 
-.update{
+.footer .update{
     grid-column: 2;
     grid-row: 2 ;
 }
 
-.social{
+.footer .social{
     grid-column: 2;
     grid-row: 3;
 }
