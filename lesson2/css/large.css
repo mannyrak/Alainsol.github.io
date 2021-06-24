@@ -62,8 +62,8 @@ footer {
 }
 footer {
     display: grid;
-    grid-template-colomuns: 30% auto;
-    grid-template-rows: 50% auto;
+    grid-template-colomuns: 200px auto;
+    grid-template-rows: 100px 100px 100px;
   
 }
 .class{
@@ -76,12 +76,32 @@ footer {
 
 }
 .picture{
-    grid-column: 1;
-    grid-row: 1;
+   
+    grid-column: 1 ;
+    grid-row: 1 / span 3;
 }
 
 
+.picture img  {
+    width: 100%;
+}
 
 
+.contact {
+grid-column: 2;
+grid-row: 1 ;
+
+
+}
+
+.update{
+    grid-column: 2;
+    grid-row: 2 ;
+}
+
+.social{
+    grid-column: 2;
+    grid-row: 3;
+}
 
 }
