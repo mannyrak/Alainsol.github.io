@@ -148,4 +148,8 @@ main picture {
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
+
+	.section-head{
+		text-align: center;
+	}
 }
