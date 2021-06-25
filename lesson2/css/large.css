@@ -94,5 +94,7 @@ grid-row: 1 ;
 .footer .social ul img {
     width: 48px;
 }
-.section-head
+.section-head{
+    text-align: center;
+}
 }
