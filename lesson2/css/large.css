@@ -120,5 +120,29 @@ main{
     left: 40px;
     color: #f2da54 ;
 }
+.flex {
+    display: flex;
+    /* flex-direction: row; */
+    /* let us combine row and wrap with flow */
+    flex-flow: row wrap;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.flex-col {
+    flex: 1 1 auto;
+    background-color: #339989;
+}
+.flex-col, .column-col, .grid-col {
+    border-bottom: 1px solid #bfb7b6;
+    border-left: 1px solid #bfb7b6;
+    text-align: center;
+}
+.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+    opacity: 0.75;
+    background-color: black;
+    color: white;
+}
+.flex, .column, .grid {
+    border-right: 1px solid #bfb7b6;
+}
 }
