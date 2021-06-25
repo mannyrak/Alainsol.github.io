@@ -66,11 +66,7 @@ nav a:hover {
 .active {
 	color: yellow;
 }
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
+
 main article {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
