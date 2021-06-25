@@ -1,3 +1,15 @@
 @media only screen and (min-width: 500px) and (max-width: 900px) {
+    .forecast {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .externalimage {
+        width: 20%;
+        float: left;
+        margin:0 1em 1em 1em;
+        clear: both;
+    }
+
 
 }
