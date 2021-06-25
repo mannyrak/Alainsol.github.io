@@ -2,7 +2,7 @@
 /* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* phone or baseline views **************************/
@@ -26,7 +26,13 @@ footer {
 }
 h1 {
 	font-size: 1.1rem;
+	
 }
+h1 {
+    text-align: center;
+    font-family: ui-sa
+	ns-serif;
+    margin-right: 5px;}
 h2 {
 	color: #536878;
 }
