@@ -175,7 +175,7 @@ main picture {
 
 
 
-forecastdiv {
+forecast-box {
     background-color: transparent;
     padding: 0;
     margin: 0;
@@ -190,7 +190,7 @@ forecastdiv {
 }
 
 .day {
-    background-color:rgba(30, 17, 106, 1);
+    background-color:rgb(50, 106, 17);
 }
 
 .day, .temp {
