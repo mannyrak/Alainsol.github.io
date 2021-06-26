@@ -170,6 +170,42 @@ main picture {
 	justify-content:center;
 	flex-wrap: wrap;
 }
+
+
+
+
+forecastdiv {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    width: 5em;
+}
+
+.weathericon {
+    display: block;
+    width: 3em;
+    margin: 0 auto;
+    padding:.5em;
+}
+
+.day {
+    background-color:rgba(30, 17, 106, 1);
+}
+
+.day, .temp {
+    padding: .25em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.temp {
+    color: black;
+}
+
+.forecastdiv {
+    margin: .5em;
+    border:solid .1em black;
+}
 }
 
 
