@@ -58,6 +58,9 @@ nav ul li a {
 	background: linear-gradient(90deg, transparent, rgb(0, 255, 234), transparent)  10px repeat;
   transition: 0.5s;
 }
+li:hover{
+	background-color: chocolate;
+}
 nav a:hover {
 /* 	background-color: #bbb;
 	color: #36454f; */
