@@ -53,6 +53,10 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
 	background-color:rgb(30, 210, 105);
+
+}
+li:hover{
+	background-color: coral;
 }
 nav a:hover {
 /* 	background-color: #bbb;
