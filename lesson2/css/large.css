@@ -12,6 +12,7 @@
             align-items: center;
             background-color: lightgrey;
             border-radius: 10px;
+            max-width: 960px;
 
         }
         
