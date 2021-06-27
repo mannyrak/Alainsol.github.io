@@ -18,8 +18,10 @@
         
         header .images {
             width: 100%;
+        }
+
+        header .images img {
             float: left;
-           
         }
         header .text-title{
 
