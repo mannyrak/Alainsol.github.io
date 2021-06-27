@@ -1,4 +1,8 @@
 /* Larger viewports */
+/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {}
+
 @media only screen and (min-width: 900px) {
     /* .... */
     h1 {
@@ -145,4 +149,14 @@ main{
 .flex, .column, .grid {
     border-right: 1px solid #bfb7b6;
 }
+
+
+    .icream-paragraph {
+        text-align: center;
+        background-color: green; 
+                                    /*var(--accent4-color);*/
+}
+
+
+
 }

@@ -1,8 +1,0 @@
-/* Larger viewports */
-@media only screen and (min-width: 32.5em) {
-    /* .... */
-    h1 {
-        font-size: 20px;
-         font-family:'Times New Roman', Times, serif;
-    }
-}

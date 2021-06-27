@@ -62,7 +62,16 @@ nav ul li a {
 nav a:hover {
 /* 	background-color: #bbb;
 	color: #36454f; */
-	--d: 75%;
+	/*--d: 75%;*/
+}
+
+
+
+li:hover {
+	background-color: burlywood;
+	
+
+
 }
 .active {
 	color: yellow;
@@ -78,6 +87,7 @@ main picture {
 	display: none;
 	margin: 0.5rem;
 }
+
 
 /*footer {
 	flex: 0 1 100%;
