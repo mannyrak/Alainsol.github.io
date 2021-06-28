@@ -153,10 +153,14 @@ main{
 
     .icream-paragraph {
         text-align: center;
-        background-color: green; 
+        background-color: rgb(128, 30, 0); 
                                     /*var(--accent4-color);*/
 }
 
-
+.article{
+    width: 500px;
+    margin-left: 90px;
+}
+}
 
 }
