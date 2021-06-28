@@ -30,7 +30,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 960px;
+	max-width: 767px;
 	margin: 0 auto;
 	background-color: #1d5f17;
 }
