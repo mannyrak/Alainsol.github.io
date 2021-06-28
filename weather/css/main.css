@@ -32,6 +32,7 @@ main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
+	background-color: #173F5F;
 }
 h1 {
 	font-size: 1.1rem;
@@ -48,7 +49,7 @@ h2 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #F6D55C;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
