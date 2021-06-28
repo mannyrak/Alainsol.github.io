@@ -56,6 +56,21 @@ body{
     height: auto;
     width: 100%;
 }
+.article-parent{
+    grid-template-columns: 50% auto;
+    grid-template-rows: 100%;
+
+}
+.article-paragraph{
+    grid-column: 1;
+    grid-row: 1;;
+
+}
+.article-paragraph{
+    grid-column: 2;
+    grid-row: 1;
+}
+
 
 .footer .picture{
    
