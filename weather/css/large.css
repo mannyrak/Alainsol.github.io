@@ -62,16 +62,16 @@ body{
     grid-template-rows: 100%;
 
 }
-.article-paragraph{
+article-paragraph{
     grid-column: 1;
     grid-row: 1;;
 
 }
-.article-paragraph{
+article-paragraph{
     grid-column: 2;
     grid-row: 1;}
 
-.article-parent {
+.article-paragraph{
         display: flex;
         flex-dirextion: row-reverse;
     }
