@@ -153,6 +153,11 @@ grid-row: 1 ;
     display: grid;
     grid-template-columns: 50%  50%;
     grid-template-rows: 50%  25%  25%;
+
+}
+.picture-frame{
+    grid-column: 1;
+    grid-row: 1;
     
 }
 
