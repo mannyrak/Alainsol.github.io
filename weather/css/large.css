@@ -157,7 +157,7 @@ grid-row: 1 ;
 }
 .picture-frame{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1 / span2;
 
 }
 .contact-page{
