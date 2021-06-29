@@ -73,7 +73,7 @@ article-paragraph{
 
 .article-paragraph{
         display: flex;
-        flex-dirextion: row;
+        flex-direction: row;
     }
 }
 
