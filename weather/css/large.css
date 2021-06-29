@@ -158,7 +158,16 @@ grid-row: 1 ;
 .picture-frame{
     grid-column: 1;
     grid-row: 1;
-    
+
+}
+.contact-page{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+.social-paragraph-page{
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .flex-col {
