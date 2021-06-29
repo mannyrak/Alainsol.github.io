@@ -69,7 +69,12 @@ body{
 }
 .article-paragraph{
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1;}
+
+.article-parent {
+        display: flex;
+        flex-dirextion: row-reverse;
+    }
 }
 
 
