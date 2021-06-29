@@ -149,6 +149,12 @@ grid-row: 1 ;
     flex-flow: row wrap;
     font-family: 'Montserrat', sans-serif;
 }
+.footer-paragraph{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 50%  25%  25%;
+    
+}
 
 .flex-col {
     flex: 1 1 auto;
