@@ -55,7 +55,8 @@ body{
     grid-template-columns: 200px auto;
     grid-template-rows: 60px 60px 60px;
     height: auto;
-    width: 100%;
+    width: 767px;
+    margin: 5px;
 }
 .article-parent{
     grid-template-columns: 50% auto;
