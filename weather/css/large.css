@@ -223,5 +223,9 @@ img{
 
     list-style: none;
 }
+
+.social-align-right img {
+    width: 48px;
+}
 }
 
