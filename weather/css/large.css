@@ -57,6 +57,7 @@ body{
     height: auto;
     width: 767px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .article-parent{
