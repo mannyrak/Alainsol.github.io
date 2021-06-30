@@ -227,5 +227,9 @@ img{
 .social-align-right img {
     width: 48px;
 }
+
+.social-align-right{
+    margin-left: 290;
+}
 }
 
