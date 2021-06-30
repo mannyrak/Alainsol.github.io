@@ -57,7 +57,7 @@ body{
     height: auto;
     width: 767px;
     margin: 5px;
-    
+
 }
 .article-parent{
     grid-template-columns: 50% auto;
@@ -217,6 +217,10 @@ img{
 .social-paragraph-page{
     display: flex;
     flex-direction: row;
+}
+.social-align-right {
+
+    list-style: none;
 }
 }
 
