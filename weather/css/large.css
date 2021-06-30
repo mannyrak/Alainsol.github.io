@@ -231,5 +231,10 @@ img{
 .social-align-right{
     margin-left: 290px;
 }
+
+.contact img {
+    width: 40px;
+}
+
 }
 
