@@ -178,7 +178,17 @@ a {
 
 
 
+main figure.myphoto{
+  width: 50%;
+  border: 1px white dashed;
+  margin: 0 0 0 2%;
+  float: right;
 
+}
+main figure.myphoto img{
+  width: 100%
+
+}
 
 }
 
