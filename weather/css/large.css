@@ -56,7 +56,7 @@ body{
     grid-template-rows: 60px 60px 60px;
     height: auto;
     width: 767px;
-    margin: 5px;
+    margin: auto;
 
 }
 .article-parent{
