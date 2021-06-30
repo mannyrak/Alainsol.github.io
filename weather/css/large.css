@@ -57,8 +57,8 @@ body{
     height: auto;
     width: 767px;
     margin: auto;
-
 }
+
 .article-parent{
     grid-template-columns: 50% auto;
     grid-template-rows: 100%;
