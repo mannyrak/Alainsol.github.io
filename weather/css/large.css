@@ -237,5 +237,9 @@ img{
     margin: 0px
 }
 
+.contact img.email {
+    margin-bottom: -10px;
+}
+
 }
 
