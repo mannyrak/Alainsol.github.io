@@ -189,6 +189,16 @@ main figure.myphoto img{
   width: 100%
 
 }
+.contact img {
+  width: 25px;
+  margin: 0px
+}
+
+.contact img.email {
+  margin-bottom: -10px;
+}
+
+
 
 }
 
