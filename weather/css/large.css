@@ -219,7 +219,7 @@ img{
     display: flex;
     flex-direction: row;
 }
-.social-align-right {
+.social-align-right ul {
 
     list-style: none;
 }
