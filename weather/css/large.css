@@ -47,7 +47,7 @@
 body{
     background-color: rgb(119, 153, 153);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: cornsilk;
+    
 }
 
 .footer {
@@ -211,5 +211,10 @@ img{
     margin-bottom: 10px;
 
 };
+
+.social-paragraph-page{
+    display: flex;
+    flex-direction: row;
+}
 }
 
