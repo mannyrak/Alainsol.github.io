@@ -192,15 +192,23 @@ grid-row: 1 ;
 }
 
 
-    .icream-paragraph {
-        text-align: center;
-        background-color: rgb(128, 30, 0); 
+    
                                     /*var(--accent4-color);*/
-}
+
 
 .article{
     width: 500px;
     margin-left: 90px;
 }
+
+
+p{
+    margin-left: 10px;
+}
+
+img{
+    margin-bottom: 10px;
+
+};
 }
 
