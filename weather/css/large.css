@@ -74,8 +74,10 @@ article-paragraph{
 .article-paragraph{
         display: flex;
         flex-direction: row;
+        margin-left: 10px;
+        color: white;
     }
-}
+
 
 
 .footer .picture{
