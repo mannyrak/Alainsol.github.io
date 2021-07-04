@@ -1,0 +1,72 @@
+header, footer {
+    background-color: brown;
+    padding: 1.5em;
+    align-content: center;
+    border-radius: 20px;
+}
+header{
+    display: block;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+
+    color: green;
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+h2{
+    text-align: left;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 30px;
+
+}
+h2:hover{
+    color: yellow;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightyellow;
+    align-content: center;
+}
+
+
+.my-image{
+    float: right;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+    border-top-right-radius: 1em;
+    overflow: hidden;
+}
+
+ul{
+    color: blue;
+}
+
+main:hover{
+    color: blue;
+    font-weight: bold;
+
+}
+
+main a:link {
+    color: black;
+}
+
+#ouputData {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
