@@ -1,0 +1,542 @@
+
+
+header, footer {
+    background-color: brown;
+    padding: 1.5em;
+    align-content: center;
+    border-radius: 20px;
+  }
+  header{
+    display: block;
+  }
+  h1{
+    text-align: center;
+  }
+    h2 {
+      text-align: center;
+      
+      color: green;
+      font-size: 1.5em;
+      font-family: "Lucida Console", "Courier New", monospace;
+      
+    }
+    h2{
+      text-align: left;
+      color: black;
+      font-size: 1.5em;
+      margin-left: 30px;
+      
+    }
+    h2:hover{
+      color: yellow;
+    }
+  
+  body {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600;
+  background-color: lightyellow;
+  align-content: center;
+  }
+  
+  
+  .my-image{
+      float: right;     
+      -webkit-box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+      box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.75);
+      border-top-right-radius: 1em;
+      overflow: hidden; 
+      width: 230px;
+  }
+    
+  
+    ul{
+      color: blue;
+    }
+    main:hover{
+      color: blue;
+      font-weight: bold;
+      
+    }
+    main a:link {
+      color: black;
+      
+    }
+    
+    #ouputData {
+      text-align: center;
+      font-family: "Lucida Console", "Courier New", monospace;
+      
+    }
+  footer{
+    
+
+      text-align: center;
+      font-size: 20px;
+      
+  }
+  .grid-parentbox{
+display: grid;
+grid-template-columns: none;
+grid-template-rows: auto;
+width: 1200px;
+margin: 10px auto;
+gap: 20px;
+background-color: none;
+}
+.grid-child-1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(138, 135, 115);
+}
+.grid-child-2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(39, 94, 39);
+}
+.grid-child-3{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(218, 16, 16);
+}
+.grid-child img {
+    max-width: 100%;
+}
+.grid-child p.link {
+    text-align: center;
+
+
+
+}
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    margin: 0.15rem
+}
+header {
+    background-color: rgb(211, 17, 17);
+    padding:.3em;
+    line-height: 1px;
+    border-radius:.67em;
+    color:white;
+    text-align:center;
+    font-family: 'Calibri Light', sans-serif;
+    margin-left: 10%;
+    margin-right: 2%;
+
+
+}
+
+header {
+    background-color: rgb(211, 17, 17);
+    padding:.3em;
+    line-height: 1;
+    border-radius:.67em;
+    color:white;
+    text-align:center;
+    font-family: 'Calibri Light', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+header.main {
+    width: auto;
+}
+.footer {
+   
+    margin-top: none;
+    grid-column: 1 / span 3;
+}
+
+ footer {
+
+    background-color: rgb(128, 37, 37);
+    
+    padding: 15px;
+}
+ h1 {
+        font-size: 20px;
+         font-family:'Times New Roman', Times, serif;
+  
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background-color: lightgrey;
+            border-radius: 10px;
+            max-width: 960px;
+
+        }
+        
+        header .images {
+            width: 100%;
+        }
+
+        header .images img {
+            float: left;
+        }
+        header .text-title{
+            margin-bottom: 10px;
+             margin-top: 60px;
+             margin-left: 5px;
+            float: left;
+
+            
+        }
+
+
+        .img {
+            width: 90px;
+           
+           padding:30px;
+           margin-bottom: 10px;
+           margin-top: 10px;
+        }
+
+    nav ul {
+        list-style: none;       
+    }
+    nav ul li {
+        float: left;
+        padding: 2px;
+        background-color: lightgrey;
+    }
+
+body{
+    background-color: lightslategrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 2px;
+    background: ;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 60px 60px 60px;
+    height: auto;
+    width: 100%;
+}
+
+.footer .picture{
+   
+    grid-column: 1 ;
+    grid-row: 1 / span 3;
+    padding: 15px;
+}
+
+
+.footer .picture img  {
+    width: 100%;
+}
+
+
+.footer .contact {
+grid-column: 2;
+grid-row: 1 ;
+
+
+}
+
+.footer .update{
+    grid-column: 2;
+    grid-row: 2 ;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.footer .social{
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 350px;
+}
+
+.footer .social ul {
+    list-style: none;
+}
+
+
+.footer .social ul img {
+    width: 48px;
+}
+.section-head{
+    text-align: center;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.banner-box{
+    position: relative;
+    margin: 10px auto;
+}
+
+.weather-summary{
+    position: absolute;
+    background: rgba(13, 24, 33, .7);
+    padding: 10px;
+    bottom: 100px;
+    left: 40px;
+    color: #f2da54 ;
+}
+.flex {
+    display: flex;
+    /* flex-direction: row; */
+    /* let us combine row and wrap with flow */
+    flex-flow: row wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-col {
+    flex: 1 1 auto;
+    background-color: #339989;
+}
+.flex-col, .column-col, .grid-col {
+    border-bottom: 1px solid #bfb7b6;
+    border-left: 1px solid #bfb7b6;
+    text-align: center;
+}
+.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+    opacity: 0.75;
+    background-color: black;
+    color: white;
+}
+.flex, .column, .grid {
+    border-right: 1px solid #bfb7b6;
+}
+
+
+    .icream-paragraph {
+        text-align: center;
+        background-color: green; 
+                                    /*var(--accent4-color);*/
+}
+
+
+
+}
+header {
+    background-color: lightyellow;
+    
+}
+
+contents {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed rgb(0, 0, 0);
+    padding: 15px;
+    background-color: #399476;
+    color: #7ae74f;
+    font-style: italic;
+}
+@import url('https://fonts.googleapis.com/css?family="Alata"|Open+Sans&display=swap" rel="stylesheet"');
+a {
+    color: #05386B;
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: "Alata";
+    background-color: #EDF5E1;
+  }
+  
+  header {
+    color: #040127;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+    font-family: "Alata";
+  }
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: "Alata";
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: "Alata";
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: "Alata";
+  }
+  
+  h3 {
+    font-family: "Alata";
+    font-size: 1.2em;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .section_head {
+    text-align: center;
+    color: #040127;
+  }
+  
+  .contents{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: #396E94;
+    color: #E7C24F;
+    font-style: italic;
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #396E94;
+  }
+  
+  nav {
+	margin: 0 auto;
+	max-width: auto;
+	background-color: #040127;
+    font-size: 0.93em;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+    
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #E7C24F;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #CEEAF7;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+}
+  
+  p {
+    font-family: "open sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color:	#5CDB95;
+  }
+  
+  footer {
+    background-color:#040127;
+    color: #CEEAF7;
+    font-family: "Alata"-Gothic;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+
+
+
+main figure.myphoto{
+  width: 50%;
+  border: 1px white dashed;
+  margin: 0 0 0 2%;
+  float: right;
+
+}
+main figure.myphoto img{
+  width: 100%
+
+}
+.contact img {
+  width: 25px;
+  margin: 0px
+}
+
+.contact img.email {
+  margin-bottom: -10px;
+}
+
+
+
+}
+
+
+}
+   
+
+h1 {
+    font-size: 12px;
+}
