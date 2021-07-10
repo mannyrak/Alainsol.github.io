@@ -1,0 +1,46 @@
+@media only screen and (max-width: 500px) {
+
+    header{
+        
+            display: flex;
+          
+            background-color: lightgrey;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            
+        }
+        
+
+header img{
+
+    height: none;
+    width: auto;
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+header .images {
+    grid-column: 1;
+    grid-row: 2;      
+}
+header .text-title{
+    grid-column: 1;
+    grid-row: 1;    
+    
+}
+footer {
+    flex: 0 1 100%;
+    height: 6em;
+}
+.social {
+    text-align: center;
+}
+p{
+    margin-left: 80px;
+}
+}
