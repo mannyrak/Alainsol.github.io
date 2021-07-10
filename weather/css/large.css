@@ -2,7 +2,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&display=swap');
 /* 64em is also 1028px when basefont is 16px */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
 
     header,
     nav,
@@ -43,14 +43,23 @@
         margin-top: 10px;
     }
 
+    .small-menu {
+        display: none;
+    }
+
+    .medium-large-menu {
+
+    }
+
     nav ul {
         list-style: none;
         width: 767px;
         margin: 0 auto;
+        display: flex;
     }
 
     nav ul li {
-        float: left;
+        flex: 1 1 100%;
         padding: 2px;
         background-color: lightgrey;
     }
@@ -184,13 +193,11 @@
     .picture-frame {
         grid-column: 1;
         grid-row: 1 / span2;
-
     }
 
     .contact-page {
         grid-column: 2;
         grid-row: 1;
-
     }
 
     .social-paragraph-page {
@@ -218,8 +225,6 @@
     .flex, .column, .grid {
         border-right: 1px solid #bfb7b6;
     }
-
-
     /*var(--accent4-color);*/
     .article {
         width: 500px;
@@ -262,6 +267,41 @@
 
     .contact img.email {
         margin-bottom: -10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    .section-head {
+        text-align: center;
+
+    }
+    .grid-forecast {
+        grid-template-columns: 25% auto auto auto;
+        grid-template-rows: 25% auto;
+    }
+
+    .grid-monday {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .grid- {
+        grid-column: 2;
+        grid-row: 1;
     }
 
 }
