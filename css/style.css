@@ -37,15 +37,13 @@ h2:hover{
     color: yellow;
 }
 
-
 ul{
     color: blue;
 }
 
-main:hover{
+.lesson-list a:hover{
     color: blue;
     font-weight: bold;
-
 }
 
 main a:link {
