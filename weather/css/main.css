@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* not necessary */
+@import url('https://fonts.googleapis.com/css?family="Alata"|Open+Sans&display=swap" rel="stylesheet"');
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+body {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* phone or baseline views **************************/
+.article {
+    margin-left: 120px;
+    width: 380px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+    background-color: #aaf1a5;
+    color: #222;
+}
+
+main {
+    max-width: 767px;
+}
+
+h1 {
+    font-size: 1.1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 5px;
+}
+
+h2 {
+    /*color: #ecece6;*/
+    text-align: center;
+}
+
+nav {
+    background-color: #F6D55C;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, transparent, rgb(0, 255, 234), transparent) 10px repeat;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    /* 	background-color: #bbb;
+        color: #36454f; */
+    /*--d: 75%;*/
+}
+
+
+li:hover {
+    background-color: burlywood;
+}
+
+.active {
+    color: yellow;
+}
+
+main article {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.forecast-box {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    width: 5em;
+}
+.weathericon {
+    display: block;
+    width: 3em;
+    margin: 0 auto;
+    padding: .5em;
+}
+
+.day {
+    background-color: rgb(50, 106, 17);
+}
+
+.day, .temp {
+    padding: .25em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.temp {
+    color: black;
+}
+
+.forecastdiv {
+    margin: .5em;
+    border: solid .1em black;
+}
