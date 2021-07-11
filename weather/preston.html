@@ -50,7 +50,12 @@
 
     <h2>Preston Idaho</h2>
     <div class="banner-box">
-        <img src="/weather/image/preston_idaho.jpg" alt="Cloudy Montain" width="80%" height="auto" class="Center">
+        <picture>
+            <source media="(max-width: 575px)" srcset="/weather/image/preston_idaho_hero_576.jpg">
+            <source media="(min-width: 576px)" srcset="/weather/image/preston_idaho_hero_992.jpg">
+            <img src="/weather/image/preston_idaho_hero_576.jpg" alt="Cloudy Montain" class="Center">
+        </picture>
+
         <section class="weather-summary">
             <h2>Weather Summary</h2>
             <p>Currently: <span id="currently">Sunny</span></p>

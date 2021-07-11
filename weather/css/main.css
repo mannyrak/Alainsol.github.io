@@ -98,12 +98,6 @@ main article {
     background-color: #eee;
 }
 
-main picture {
-    display: none;
-    margin: 0.5rem;
-}
-
-
 .forecast {
     display: flex;
     justify-content: center;
