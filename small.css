@@ -261,6 +261,8 @@ main, footer{
 img.lazy {
   width: 400px;
   height: 300px;
+  margin-left: 20px;
+  justfy-self: center;
 }
 .first-image, sec-image, thr-image, frt-image, fiv-image, six-image, sev-image, eig-image,  nin-image, ten-image{
   grid-column: 1fr;
