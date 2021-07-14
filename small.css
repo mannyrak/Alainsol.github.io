@@ -237,3 +237,10 @@
         margin: .5em;
         border:solid .1em black;
     }
+
+
+.containerParent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
