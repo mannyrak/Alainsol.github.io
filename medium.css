@@ -1,0 +1,7 @@
+img.lazy {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 20px rgb(128, 139, 128);
+    border: 5px solid;
+}
