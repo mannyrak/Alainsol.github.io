@@ -267,6 +267,7 @@ img.lazy {
   border-radius: 10px;
   box-shadow: #E7C24F 5px;
   border: 10px solid lightgoldenrodyellow;
+  justify-self: center;
 }
 
 
