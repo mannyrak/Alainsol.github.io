@@ -200,7 +200,7 @@
     
     
     
-    }
+  
      
     h1 {
         font-size: 12px;
@@ -244,3 +244,20 @@
   grid-template-columns: 1fr 1fr;
 }
 
+
+.containerParent{
+  display: grid;
+  grid-template-columns:  1fr;
+  column-gap: 20px;
+
+
+}
+main, footer{
+  max-width: 56em;
+  text-align: center;
+
+}
+
+
+
+}
