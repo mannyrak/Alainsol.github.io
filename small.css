@@ -262,7 +262,7 @@ img.lazy {
   width: 400px;
   height: 300px;
 }
-first-image, sec-image, thr-image, frt-image, fiv-image, six-image, sev-image, eig-image,  nin-image, ten-image{
+.first-image, sec-image, thr-image, frt-image, fiv-image, six-image, sev-image, eig-image,  nin-image, ten-image{
   grid-column: 1fr;
   border-radius: 10px;
   box-shadow: #E7C24F 5px;
