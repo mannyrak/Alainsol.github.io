@@ -146,8 +146,12 @@
    */
   
   img {
+    width: 400px;
+    height: 300px;
     border-style: none;
     margin-left: 97px;
+    border-radius: 10px;
+    box-shadow: 10px;
   }
   
   /* Forms
