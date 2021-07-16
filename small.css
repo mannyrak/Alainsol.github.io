@@ -282,7 +282,9 @@ img.lazy {
   row-gap: 10px;
 
 }
+.clientInfo: :required { border-color: 5px solid ghostwhite;
 
+}
 
 
 }
