@@ -65,7 +65,7 @@
         <label class="clientinfo"> Zipcode<input type="number" name="Zipcode" placeholder="12345" required="" pattern="[0-9]{5}"></label>
         </fieldset>
 
-        <fieldset class="storminfomation">
+        <fieldset class="stormInfo">
             <legend>Storm Information</legend>
             <label class="stormInfo">Storm Date <input type="date"> </label>
             <label class="stormInfo">Storm Type
@@ -81,7 +81,7 @@
                     <option value="Cyclone"></option>
                 </datalist>
             </label>
-            <label class="storm">
+            <label class="stormInfo">
                 <p>Choose Storm Severity From 1 to 10</p>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
