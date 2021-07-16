@@ -273,4 +273,13 @@ img.lazy {
 }
 
 
+.clientInfo, .stormInfo, .radio, .radiolabel, .infoplus, .additionalInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
 }
