@@ -67,8 +67,8 @@
 
         <fieldset class="stormInfo">
             <legend>Storm Information</legend>
-            <label class="stormInfo">Storm Date <input type="date"> </label>
-            <label class="stormInfo">Storm Type
+            <label class="stormInfo">Storm Date <input type="date"> </label><br>
+            <label class="stormInfo">Storm Type<br>
                 <input list="weather"  placeholder="Select Storm Type ...">
                     
                 <datalist id="season">
@@ -82,9 +82,9 @@
                 </datalist>
             </label>
             <label class="stormInfo">
-                <p>Choose Storm Severity From 1 to 10</p>
+                <p>Choose Storm Severity From 1 to 10</p><br>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><br>
                 <span id="ratingvalue"></span>
             </label>
 
