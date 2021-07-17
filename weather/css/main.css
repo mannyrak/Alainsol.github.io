@@ -137,7 +137,7 @@ main article {
 
 
 /* -- Image lazyload--- */
-picture {
+picture.lazyload {
     display: block;
     margin: 0 auto;
     width: 300px;
@@ -146,16 +146,16 @@ picture {
     margin-bottom: 10px;
 }
 
-picture img {
+picture.lazyload img {
     position: absolute;
     top: 0;
 }
 
-img.loading {
+picture.lazyload img.loading {
     opacity: 0;
 }
 
-img.loaded {
+picture.lazyload img.loaded {
     opacity: 1;
     transition: opacity 0.5s;
 }
