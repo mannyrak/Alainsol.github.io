@@ -161,6 +161,17 @@ picture.lazyload img.loaded {
     opacity: 1;
     transition: opacity 0.5s;
 }
+
+picture.lazyload figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 7px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 .gallery-image {
 
 }
