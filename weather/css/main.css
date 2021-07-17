@@ -176,3 +176,15 @@ picture.lazyload figcaption {
 .gallery-image {
 
 }
+
+.clientInfo label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+.clientInfo input {
+    display: block;
+    width: 300px;
+    float: left;
+}

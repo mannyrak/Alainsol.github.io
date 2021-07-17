@@ -58,11 +58,27 @@
 
         <legend> Your information</legend>
         
-        <label class="clientInfo"> First Name*<input type="text" pattern="[A-Za-z ]{5,}" name="firstname"></label><br>
-        <label class="clientInfo"> Last Name*<input type="text" pattern="[A-Za-z ]{5,}" name="lastname"></label><br>
-        <label class="clientinfo"> Email*<input type="email" name="email" placeholder="someone@gmail.com"></label><br>
-        <label class="clientInfo"> Phone<input type="tel" name="phone" placeholder="1342324094" required=""></label><br>
-        <label class="clientinfo"> Zipcode<input type="number" name="Zipcode" placeholder="12345" required="" pattern="[0-9]{5}"></label>
+        <div class="clientInfo">
+            <label> First Name*</label>
+            <input type="text" pattern="[A-Za-z ]{5,}" name="firstname">
+        </div>
+        <div class="clientInfo">
+            <labe> Last Name*</label>
+            <input type="text" pattern="[A-Za-z ]{5,}" name="lastname">
+        </div>
+        <div class="clientInfo">
+            <label> Email*</label>
+            <input type="email" name="email" placeholder="someone@gmail.com">
+        </div>
+        <div class="clientInfo">
+            <label> Phone</label>
+            <input type="tel" name="phone" placeholder="1342324094" required="">
+        </div>
+        <div class="clientInfo">
+            <label> Zipcode</label>
+            <input type="number" name="Zipcode" placeholder="12345" required="" pattern="[0-9]{5}">
+        </div>
+        
         </fieldset>
 
         <fieldset class="stormInfo">
