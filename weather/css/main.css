@@ -191,5 +191,10 @@ picture.lazyload figcaption {
 .clientInfo input, .clientInfo select {
     display: block;
     width: 300px;
+    border: 2px solid lightblue;
     float: left;
+    border-radius: 5px;
+    padding: 5px 7px;
+    background-color: #EEE;
+
 }
