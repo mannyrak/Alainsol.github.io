@@ -134,3 +134,28 @@ main article {
     margin: .5em;
     border: solid .1em black;
 }
+
+
+/* -- Image lazyload--- */
+picture {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+picture img {
+    position: absolute;
+    top: 0;
+}
+
+img.loading {
+    opacity: 0;
+}
+
+img.loaded {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
