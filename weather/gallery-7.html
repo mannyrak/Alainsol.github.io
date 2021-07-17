@@ -63,7 +63,7 @@
         <h1>Weather Gallery</h1>
         <div class="containerParent">
           <div class="first-image">
-            <picture>
+            <picture class="lazyload">
                 <img src="image/placeholder.png" width="400px" height="300px">
                 <img data-src="/weather/image/ravinan.jpg" width="400px" height="300px">
                 <div class="figcaption">Lac with sunny day on winter</figcaption></div>
@@ -71,7 +71,8 @@
 </div>
 
 <div class="sec-image">
-            <picture class="lazyload"><img class="lazy" srcset="" src="/weather/image/vary_n.jpg" alt="" width="400px" height="300px">
+            <picture class="lazyload">
+              <img class="lazy" srcset="" src="/weather/image/vary_n.jpg" alt="" width="400px" height="300px">
                 <figcaption>Green space are not just for nature ,it boosts our mental </figcaption>
             </picture></div>
 
