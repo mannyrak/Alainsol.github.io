@@ -140,8 +140,8 @@ main article {
 picture.lazyload {
     display: block;
     margin: 0 auto;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     position: relative;
     margin-bottom: 10px;
 }
@@ -149,6 +149,8 @@ picture.lazyload {
 picture.lazyload img {
     position: absolute;
     top: 0;
+    width: 400px;
+    height: 300px;
 }
 
 picture.lazyload img.loading {
@@ -158,4 +160,7 @@ picture.lazyload img.loading {
 picture.lazyload img.loaded {
     opacity: 1;
     transition: opacity 0.5s;
+}
+.gallery-image {
+
 }
