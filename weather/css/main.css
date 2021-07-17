@@ -177,6 +177,11 @@ picture.lazyload figcaption {
 
 }
 
+.clientInfo {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
 .clientInfo label {
     display: block;
     width: 150px;
