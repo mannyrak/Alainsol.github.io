@@ -188,7 +188,7 @@ picture.lazyload figcaption {
     float: left;
 }
 
-.clientInfo input {
+.clientInfo input, .clientInfo select {
     display: block;
     width: 300px;
     float: left;
