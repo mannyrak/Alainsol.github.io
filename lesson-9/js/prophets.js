@@ -32,7 +32,10 @@ fetch(requestURL)
             
             image.setAttribute('src', prophets[i].imageurl);
 
-            card.appendChild(title);            
+            card.appendChild(title);   
+            card.appendChild(birthdate); 
+            card.appendChild(birthplace); 
+            card.appendChild(order);          
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
