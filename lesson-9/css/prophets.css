@@ -3,3 +3,8 @@ display: block;
 border: 10px solid ghostwhite;
 
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+}
