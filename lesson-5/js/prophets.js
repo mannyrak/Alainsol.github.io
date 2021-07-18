@@ -13,6 +13,9 @@ fetch(requestURL)
         /* -- Display town information -- */
 
         for (let i = 0; i < towns.length; i++ ) {
+
+            let card = document.createElement('section');
+            
             let weatherInfo = document.createElement('section');
             let title = document.createElement('h2');
             title.textContent = towns[i].name;
