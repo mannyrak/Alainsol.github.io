@@ -17,6 +17,7 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             
+            let image = document.createElement('img');
             image.setAttribute('src', prophets[i].imageurl);
 
             card.appendChild(h2);            
