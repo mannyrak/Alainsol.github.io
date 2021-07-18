@@ -15,7 +15,7 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++ ) {
 
             let card = document.createElement('section');
-            
+
             let weatherInfo = document.createElement('section');
             let title = document.createElement('h2');
             title.textContent = towns[i].name;
@@ -38,7 +38,7 @@ fetch(requestURL)
             
 
             card.appendChild(title);   
-            card.appendChild(img); 
+            card.appendChild(image); 
             card.appendChild(yearFounded)
             card.appendChild(currentPopulation); 
             
