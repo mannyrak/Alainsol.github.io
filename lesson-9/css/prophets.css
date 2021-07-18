@@ -5,6 +5,8 @@ border: 10px solid goldenrod;
 }
 
 section{
+    width: 350px;
     display: flex;
     flex-direction: column;
+    border-radius: 20px 20px;
 }
