@@ -27,7 +27,7 @@ fetch(requestURL)
             currentPopulation.textContent =  towns[i].currentPopulation;
 
             let averageRainfall = document.createElement("p");
-            order.textContent =  towns[i].averageRainfall;
+            averageRainfall.textContent =  towns[i].averageRainfall;
 
             let events = document.createElement("p");
             events.textContent = towns[i].events.join(', ');
