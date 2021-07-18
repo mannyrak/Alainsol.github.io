@@ -21,7 +21,7 @@ fetch(requestURL)
             title.textContent = towns[i].name;
 
             let image = document.createElement('img');        
-            image.setAttribute('src', towns[i].photo);
+            image.setAttribute('src', '/lesson-5/image/' + towns[i].photo);
 
             let yearFounded = document.createElement("p");
             yearFounded.textContent =  towns[i].yearFounded;
