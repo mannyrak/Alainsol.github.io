@@ -26,7 +26,8 @@ fetch(requestURL)
             let order = document.createElement("p");
             order.textContent = 'Order: ' + prophets[i].order;
 
-        
+            let death = document.createElement("p");
+            death.textContent = 'Death: ' + prophets[i].death;
             
             let image = document.createElement('img');
             
@@ -35,7 +36,7 @@ fetch(requestURL)
             card.appendChild(title);   
             card.appendChild(birthdate); 
             card.appendChild(birthplace); 
-            card.appendChild(order);          
+            card.appendChild(death);          
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
