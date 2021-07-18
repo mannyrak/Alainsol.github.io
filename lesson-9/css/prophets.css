@@ -1,12 +1,13 @@
 .cards {
 display: block;
+width: 900px;
 border: 10px solid goldenrod;
 
 }
 
 section{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    float: left;
     border-radius: 20px 20px;
 }
