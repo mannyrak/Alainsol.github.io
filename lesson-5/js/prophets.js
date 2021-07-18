@@ -18,22 +18,22 @@ fetch(requestURL)
 
             let weatherInfo = document.createElement('section');
             let title = document.createElement('h2');
-            title.textContent ="Name:" + towns[i].name;
+            title.textContent ="Name: " + towns[i].name;
 
             let image = document.createElement('img');        
             image.setAttribute('src', '/lesson-5/image/' + towns[i].photo);
 
             let yearFounded = document.createElement("p");
-            yearFounded.textContent = "Year Founded:" +  towns[i].yearFounded;
+            yearFounded.textContent = "Year Founded: " +  towns[i].yearFounded;
 
             let currentPopulation  = document.createElement("p");
-            currentPopulation.textContent = "Current Population:" +  towns[i].currentPopulation;
+            currentPopulation.textContent = "Current Population: " +  towns[i].currentPopulation;
 
             let averageRainfall = document.createElement("p");
-            averageRainfall.textContent ="Average Rain Fall:" +  towns[i].averageRainfall;
+            averageRainfall.textContent ="Average Rain Fall: " +  towns[i].averageRainfall;
 
             let events = document.createElement("p");
-            events.textContent = towns[i].events.join(', ');
+            events.textContent ="Events: " + towns[i].events.join(', ');
             
             
 
