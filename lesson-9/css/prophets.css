@@ -17,6 +17,10 @@ section {
     overflow: hidden;
 }
 
+h1, p {
+    text-align: center;
+}
+
 section img {
     width: 300px;
 }
