@@ -35,7 +35,8 @@ fetch(requestURL)
 
             card.appendChild(title);   
             card.appendChild(birthdate); 
-            card.appendChild(birthplace); 
+            card.appendChild(order); 
+            
             card.appendChild(death);          
             card.appendChild(image);
 
