@@ -12,36 +12,40 @@ fetch(requestURL)
 
         /* -- Display town information -- */
 
-       let weatherInfo = document.createElement('section');
-        let title = document.createElement('h2');
-        title.textContent = towns[i].name;
+        for (let i = 0; i < towns.length; i++ ) {
+            let weatherInfo = document.createElement('section');
+            let title = document.createElement('h2');
+            title.textContent = towns[i].name;
 
-        let image = document.createElement('img');        
-        image.setAttribute('src', towns[i].photo);
+            let image = document.createElement('img');        
+            image.setAttribute('src', towns[i].photo);
 
-        let yearFounded = document.createElement("p");
-        yearFounded.textContent =  towns[i].yearFounded;
+            let yearFounded = document.createElement("p");
+            yearFounded.textContent =  towns[i].yearFounded;
 
-        let currentPopulation  = document.createElement("p");
-        currentPopulation.textContent =  towns[i].currentPopulation;
+            let currentPopulation  = document.createElement("p");
+            currentPopulation.textContent =  towns[i].currentPopulation;
 
-        let averageRainfall = document.createElement("p");
-        order.textContent =  towns[i].averageRainfall;
+            let averageRainfall = document.createElement("p");
+            order.textContent =  towns[i].averageRainfall;
 
-        let events = document.createElement("p");
-        events.textContent = towns[i].events.join(', ');
+            let events = document.createElement("p");
+            events.textContent = towns[i].events.join(', ');
+            
+            
+
+            card.appendChild(title);   
+            card.appendChild(img); 
+            card.appendChild(yearFounded)
+            card.appendChild(currentPopulation); 
+            
+            card.appendChild(averageRainfall);          
+            card.appendChild(events);
+
+            document.querySelector('div.cards').appendChild(card);
+        }
+
         
-        
-
-        card.appendChild(title);   
-        card.appendChild(img); 
-        card.appendChild(yearFounded)
-        card.appendChild(currentPopulation); 
-        
-        card.appendChild(averageRainfall);          
-        card.appendChild(events);
-
-        document.querySelector('div.cards').appendChild(card);
 
         /* ----- */
 
