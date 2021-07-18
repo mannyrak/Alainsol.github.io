@@ -3,6 +3,8 @@
     width: 960px;
     border: 10px solid goldenrod;
     margin: 0 auto;
+    background-color: #aec8e1;
+    overflow: hidden;
 }
 
 section {
