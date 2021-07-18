@@ -18,13 +18,13 @@ fetch(requestURL)
             title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
             let birthdate = document.createElement("p");
-            dateOfBirth.textContent = prophets[i].birthdate;
+            birthdate.textContent = prophets[i].birthdate;
 
             let birthplace  = document.createElement("p");
             birthplace.textContent = prophets[i].birthplace;
 
             let order = document.createElement("p");
-            orderrank.textContent = prophets[i].order;
+            order.textContent = prophets[i].order;
 
         
             
