@@ -1,0 +1,46 @@
+@media only screen and (min-width: 992px) {
+    header {
+        align-items: center;
+        background-color: lightgrey;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header,
+    nav,
+    main,
+    footer {
+        width: 100%;
+    }
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+    background-color: #aaf1a5;
+    color: #222;
+}
+
+user agent stylesheet header {
+    display: block;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: rgb(119, 153, 153);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+body {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
